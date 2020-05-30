@@ -34,7 +34,7 @@ app.get('/', async(req, res) => {
     if(id !== undefined){
         tokensRef.doc(id).get().then(data => {
             result.success = true
-            result.response = data
+            result.response = data.data()
             res.send(result)
             return
         }).catch(error => {
@@ -67,11 +67,14 @@ app.post('/create', async(req, res) => {
     })
 })
 
-app.put('/update', async(req, res) => {
+app.put('/unshutdown', async(req, res) => {
     let result = Result()
-    const data = req.body
-    if(data !== undefined){
-        const id = data.id
+    const data = {
+        isShutdown: false,
+        lastShutdown: new Date()
+    }
+    if(req.query.id !== undefined){
+        const id = req.query.id
         tokensRef.doc(id).set(data).then(() => {
             result.success = true
             res.send(result)
@@ -84,5 +87,27 @@ app.put('/update', async(req, res) => {
         res.send(result)
     }
 })
+
+app.put('/shutdown', async(req, res) => {
+    let result = Result()
+    const data = {
+        isShutdown: true,
+        lastShutdown: new Date()
+    }
+    if(req.query.id !== undefined){
+        const id = req.query.id
+        tokensRef.doc(id).set(data).then(() => {
+            result.success = true
+            res.send(result)
+            return
+        }).catch(error => {
+            res.send(result)
+            return
+        })
+    }else{
+        res.send(result)
+    }
+})
+
 
 exports.api = functions.https.onRequest(app);
