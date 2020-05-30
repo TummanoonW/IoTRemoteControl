@@ -88,7 +88,7 @@ app.put('/unshutdown', async(req, res) => {
     }
 })
 
-app.put('/shutdown', async(req, res) => {
+app.get('/shutdown', async(req, res) => {
     let result = Result()
     const data = {
         isShutdown: true,
