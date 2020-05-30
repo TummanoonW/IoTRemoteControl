@@ -1,0 +1,13 @@
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\bin\Debug\IoTRemoteShutdownClient.exe.config
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\bin\Debug\IoTRemoteShutdownClient.exe
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\bin\Debug\IoTRemoteShutdownClient.pdb
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.csprojAssemblyReference.cache
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.Form1.resources
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.Properties.Resources.resources
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.csproj.GenerateResource.cache
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.csproj.CoreCompileInputs.cache
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.exe
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.pdb
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gview-win7\source\repos\IoTRemoteShutdownClient\IoTRemoteShutdownClient\obj\Debug\IoTRemoteShutdownClient.csproj.CopyComplete
