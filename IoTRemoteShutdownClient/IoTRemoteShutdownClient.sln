@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTRemoteShutdownClient", "IoTRemoteShutdownClient\IoTRemoteShutdownClient.csproj", "{98FF00AB-391C-4476-A0D7-3609931C8109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98FF00AB-391C-4476-A0D7-3609931C8109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FF00AB-391C-4476-A0D7-3609931C8109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FF00AB-391C-4476-A0D7-3609931C8109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FF00AB-391C-4476-A0D7-3609931C8109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD1E84B3-6543-4BD7-9FE3-3FAD394E5E86}
+	EndGlobalSection
+EndGlobal
